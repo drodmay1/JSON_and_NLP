@@ -1,15 +1,29 @@
-# Requests, JSON, and basic NLP with spaCy
+# P4: Employ Requests, JSON, NLP with SpaCy
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+**Project Overview**
+This project performs sentiment analysis on song lyrics using the lyrics.ovh API for data collection and spaCy with SpacyTextBlob for natural language processing. The analysis provides insights into the emotional tone of popular songs.
 
-## Rubric
+**Objectives**
+Data Collection: Retrieve song lyrics via API and save them as JSON files.
+Sentiment Analysis: Use SpacyTextBlob to analyze the sentiment polarity of each song.
+Interpretation: Compare polarity scores.
 
-* (Question 1) Lyrics printed: 1 pt
-* (Question 1) File created and submitted with notebook: 1 pt
-* (Question 2) Correct polarity reported: 1 pt
-* (Question 2) Question answered thoughtfully: 1 pt
-* (Question 3) Function defined as specified: 1 pt
-* (Question 3) Song lyrics retrieved and stored in separate files (0.5 pts/song): 2 pts
-* (Question 4) Polarity scores printed (with appropriate label containing song title, .25 pts/song): 1 pt
-* (Question 4) Questions answered thoughtfully: 2 pts
+**Songs in this project**
+Hello
+Hey Jude
+Love Story
+Bohemian Rhapsoy
+
+**Tools and Libraries**
+lyrics.ovh API: For accessing lyrics data.
+spaCy: For natural language processing.
+SpacyTextBlob: For sentiment analysis.
+
+**Dependencies Installed**
+spaCy
+SpacyTextBlob
+en_core_web_sm model for spaCy
+
+pip install spacy
+pip install spacytextblob
+python -m spacy download en_core_web_sm
