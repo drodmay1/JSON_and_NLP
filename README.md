@@ -1,6 +1,6 @@
 # P4: Employ Requests, JSON, NLP with SpaCy
 
-**Project Overview**
+## Project Overview**
 
 This project performs sentiment analysis on song lyrics using the lyrics.ovh API for data collection and spaCy with SpacyTextBlob for natural language processing. The analysis provides insights into the emotional tone of popular songs.
 
@@ -14,13 +14,13 @@ Interpretation: Compare polarity scores.
 
 **Songs in this project**
 
-Hello
+- Hello
 
-Hey Jude
+- Hey Jude
 
-Love Story
+- Love Story
 
-Bohemian Rhapsoy
+- ohemian Rhapsoy
 
 
 **Tools and Libraries**
@@ -43,3 +43,4 @@ en_core_web_sm model for spaCy
 pip install spacy
 pip install spacytextblob
 python -m spacy download en_core_web_sm
+
