@@ -31,18 +31,16 @@ This project performs sentiment analysis on song lyrics using the lyrics.ovh API
 
 - SpacyTextBlob: For sentiment analysis.
 
-## Dependencies Installed**
+## Dependencies Installed
 
-spaCy
+- **spaCy**
+- **SpacyTextBlob**
+- **en_core_web_sm model for spaCy**
 
-SpacyTextBlob
+To install these dependencies, use the following commands:
 
-en_core_web_sm model for spaCy
-
-
+```bash
 pip install spacy
-
 pip install spacytextblob
-
 python -m spacy download en_core_web_sm
 
