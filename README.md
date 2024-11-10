@@ -12,7 +12,7 @@ This project performs sentiment analysis on song lyrics using the lyrics.ovh API
 
 * Interpretation: Compare polarity scores.
 
-**Songs in this project**
+## Songs in this project
 
 - Hello
 
@@ -20,10 +20,10 @@ This project performs sentiment analysis on song lyrics using the lyrics.ovh API
 
 - Love Story
 
-- ohemian Rhapsoy
+- Bohemian Rhapsoy
 
 
-**Tools and Libraries**
+## Tools and Libraries
 
 - lyrics.ovh API: For accessing lyrics data.
 
@@ -31,7 +31,7 @@ This project performs sentiment analysis on song lyrics using the lyrics.ovh API
 
 - SpacyTextBlob: For sentiment analysis.
 
-**Dependencies Installed**
+## Dependencies Installed**
 
 spaCy
 
@@ -41,6 +41,8 @@ en_core_web_sm model for spaCy
 
 
 pip install spacy
+
 pip install spacytextblob
+
 python -m spacy download en_core_web_sm
 
